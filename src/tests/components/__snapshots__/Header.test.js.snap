@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Header page correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <AuthProvider>
+    <MemoryRouter
+      initialEntries={
+        Array [
+          "/",
+        ]
+      }
+      keyLength={0}
+    >
+      <Router
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "canGo": [Function],
+            "createHref": [Function],
+            "entries": Array [
+              Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+            ],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "index": 0,
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+      >
+        <Header>
+          <div>
+            <Link
+              to="/homepage"
+            >
+              <LinkAnchor
+                href="/homepage"
+                navigate={[Function]}
+              >
+                <a
+                  href="/homepage"
+                  onClick={[Function]}
+                >
+                  <h1>
+                    Game Manager
+                  </h1>
+                </a>
+              </LinkAnchor>
+            </Link>
+            <p>
+              List the games you have to finish !
+            </p>
+            <SearchGames>
+              <div>
+                <input
+                  onChange={[Function]}
+                  placeholder="Search a game..."
+                  type="text"
+                  value=""
+                />
+                <div>
+                  <ul>
+                    <SearchGamesDropDownNoItem>
+                      <li>
+                        <span>
+                          No result
+                        </span>
+                      </li>
+                    </SearchGamesDropDownNoItem>
+                  </ul>
+                </div>
+              </div>
+            </SearchGames>
+          </div>
+        </Header>
+      </Router>
+    </MemoryRouter>
+  </AuthProvider>
+</Provider>
+`;

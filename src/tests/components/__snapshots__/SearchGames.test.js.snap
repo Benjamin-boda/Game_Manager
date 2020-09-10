@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render SearchGames page correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <SearchGames>
+    <div>
+      <input
+        onChange={[Function]}
+        placeholder="Search a game..."
+        type="text"
+        value=""
+      />
+      <div>
+        <ul>
+          <SearchGamesDropDownNoItem>
+            <li>
+              <span>
+                No result
+              </span>
+            </li>
+          </SearchGamesDropDownNoItem>
+        </ul>
+      </div>
+    </div>
+  </SearchGames>
+</Provider>
+`;

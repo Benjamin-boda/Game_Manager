@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render GameFilters page correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <GameFilters>
+    <div>
+      <input
+        onChange={[Function]}
+        placeholder="Search games by title"
+        type="text"
+      />
+      <select
+        name="platform"
+        onChange={[Function]}
+      >
+        <option
+          value=""
+        >
+          --Filter by platform--
+        </option>
+        <option
+          key="switch"
+        >
+          switch
+        </option>
+        <option
+          key="wii"
+        >
+          wii
+        </option>
+        <option
+          key="playstation-4"
+        >
+          playstation-4
+        </option>
+      </select>
+      <select
+        name="games"
+        onChange={[Function]}
+      >
+        <option
+          value=""
+        >
+          --Filter by status--
+        </option>
+        <option
+          value="Never played"
+        >
+          Never played
+        </option>
+        <option
+          value="Ongoing"
+        >
+          Ongoing
+        </option>
+        <option
+          value="Finished"
+        >
+          Finished
+        </option>
+      </select>
+      <select
+        name="date"
+        onChange={[Function]}
+      >
+        <option
+          value=""
+        >
+          --Sort by bought date--
+        </option>
+        <option
+          value="oldDate"
+        >
+          Old to new
+        </option>
+        <option
+          value="newDate"
+        >
+          New to old
+        </option>
+      </select>
+    </div>
+  </GameFilters>
+</Provider>
+`;

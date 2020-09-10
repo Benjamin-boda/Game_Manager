@@ -1,0 +1,15 @@
+.footer {
+    align-items: center;
+    background: $grey;
+    bottom: 0;
+    display: flex;
+    font-size: $font-size-small;
+    height: 10rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer__image {
+    height: 10rem;
+    width: 10rem;
+}

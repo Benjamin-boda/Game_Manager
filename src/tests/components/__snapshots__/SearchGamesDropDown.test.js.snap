@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render SearchGamesDropDown page correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <MemoryRouter
+    initialEntries={
+      Array [
+        "/",
+      ]
+    }
+    keyLength={0}
+  >
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "canGo": [Function],
+          "createHref": [Function],
+          "entries": Array [
+            Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+          ],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "index": 0,
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <SearchGamesDropDown
+        data={
+          Object {
+            "platform": "ps4",
+            "title": "sonic",
+          }
+        }
+      >
+        <li
+          key="sonicps4"
+        >
+          <Link
+            to="/games/sonic/ps4"
+          >
+            <LinkAnchor
+              href="/games/sonic/ps4"
+              navigate={[Function]}
+            >
+              <a
+                href="/games/sonic/ps4"
+                onClick={[Function]}
+              >
+                sonic
+                 - 
+                ps4
+              </a>
+            </LinkAnchor>
+          </Link>
+        </li>
+      </SearchGamesDropDown>
+    </Router>
+  </MemoryRouter>
+</Provider>
+`;
+
+exports[`should render SearchGamesDropDownNoItem page correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <SearchGamesDropDownNoItem>
+    <li>
+      <span>
+        No result
+      </span>
+    </li>
+  </SearchGamesDropDownNoItem>
+</Provider>
+`;

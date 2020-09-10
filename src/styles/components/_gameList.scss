@@ -1,0 +1,75 @@
+.list-header {
+    background: $off-white;
+    border: 1px solid darken($off-white, 7%);
+    color: $dark-blue;
+    display: flex;
+    justify-content: space-between;
+    padding: $s-size $m-size;
+}
+
+.list-body {
+    margin-bottom: $m-size;
+    @media (min-width: $desktop-breakpoint) {
+        margin-bottom: $l-size;
+    }
+}
+
+.list-item {
+    align-items: center;
+    border: 1px solid darken($off-white, 7%);
+    border-top: none;
+    color: $dark-blue;
+    display: flex;
+    flex-direction: column;
+    padding: $s-size;
+    text-decoration: none;
+    transition: background .3s ease;
+    
+    @media (min-width: $desktop-breakpoint) {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: $m-size;
+    }
+}
+
+.list-game {
+    text-align: end;
+}
+
+.list-image {
+    height: 10rem;
+    padding-top: $s-size;
+    width: 8rem;
+
+    @media (min-width: $desktop-breakpoint) {
+        padding-top: 0;
+    }
+}
+
+.list-button {
+    background: $light-blue;
+    border: 1px solid darken($off-white, 7%);
+    border-top: none;
+    color: $dark-blue;
+    padding: $s-size;
+    text-decoration: none;
+    transition: background .3s ease;
+    &:hover {
+        background: $light-blue;
+    }
+}
+
+.list-item__title {
+    font-size: $font-size-small;
+}
+
+.list-item--message {
+    align-items: center;
+    color: $dark-blue;
+    justify-content: center;
+    padding-left: $m-size;
+    &:hover {
+        background: none;
+    }
+}

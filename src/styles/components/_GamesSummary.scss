@@ -1,0 +1,23 @@
+.summary {
+    background: $light-blue;
+    color: $dark-blue;
+    padding-top: 0;
+    text-align: center;
+}
+
+.summary__title {
+    margin-top: 0;
+}
+
+.summary__status {
+    display: flex;
+    justify-content: center;
+}
+
+.summary__status__h2 {
+    padding-left: $m-size;
+
+    @media (min-width: $desktop-breakpoint) {
+        padding-left: $l-size;  
+    }
+}

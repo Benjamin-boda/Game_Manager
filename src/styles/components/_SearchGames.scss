@@ -1,0 +1,11 @@
+.search__dropdown {
+    background: white;
+    border: solid 1px $dark-blue;
+    height: auto;
+    list-style: none;
+    padding: $s-size;
+    position: absolute;
+    text-decoration: none;
+    z-index: 1;
+}
+

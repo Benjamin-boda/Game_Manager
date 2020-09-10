@@ -1,0 +1,19 @@
+.button {
+    background: $dark-blue;
+    border: none;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.button__login {
+    background: $light-blue;
+    border: none;
+    color: $dark-blue;
+    display: inline-block;
+    font-size: $font-size-large;
+    font-weight: 300;
+    line-height: 1;
+    padding: $s-size;
+    text-decoration: none;
+}
+

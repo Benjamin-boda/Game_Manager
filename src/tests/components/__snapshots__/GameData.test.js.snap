@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render AddGame page correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <MemoryRouter
+    initialEntries={
+      Array [
+        "/",
+      ]
+    }
+    keyLength={0}
+  >
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "canGo": [Function],
+          "createHref": [Function],
+          "entries": Array [
+            Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+          ],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "index": 0,
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <GameData
+        data={
+          Object {
+            "boughtAt": 120,
+            "id": "1",
+            "image": "",
+            "platform": "switch",
+            "played": "",
+            "title": "sonic",
+          }
+        }
+        displayAddGame={false}
+      >
+        <div>
+          <img />
+          <h2 />
+          <h3 />
+          <p />
+          <p>
+             
+             
+          </p>
+          <button
+            onClick={[Function]}
+          >
+            Add game
+          </button>
+        </div>
+      </GameData>
+    </Router>
+  </MemoryRouter>
+</Provider>
+`;
