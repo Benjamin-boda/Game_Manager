@@ -12,6 +12,7 @@ firestore.indexes.json
 firebase.json
 database.rules.json
 .firebaserc
+yarn.lock
 
 # testing
 /coverage
