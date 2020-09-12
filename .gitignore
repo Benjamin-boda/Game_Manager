@@ -7,11 +7,6 @@
 .env
 .env.development
 .env.test
-firebase.rules
-firestore.indexes.json
-firebase.json
-database.rules.json
-.firebaserc
 package-lock.json
 
 # testing
