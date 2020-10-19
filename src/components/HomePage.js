@@ -17,7 +17,7 @@ const HomePage = () => {
             "method": "GET",
             "headers": {
               "x-rapidapi-host": "chicken-coop.p.rapidapi.com",
-              "x-rapidapi-key": "769c8e5236mshb7b9fd0b7a97d8fp181f53jsn56dac5b71106"
+              "x-rapidapi-key": process.env.REACT_APP_SECRET_KEY
             }
           })
           // Array of random games
